@@ -2,7 +2,7 @@ _OpenBioBlitz est un projet initié et développé lors de la première édition
 
 ### Quoi:
 
-une application online/offline pour acquérir de nouvelles données d'observation biologiques lors d'un BioBlitz avec
+une application online/offline pour acquérir de nouvelles données d'observations biologiques lors d'un BioBlitz avec
 - Traduction automatique en [Darwin Core](http://rs.tdwg.org/dwc/) 
 - Intégration des informations manquantes via des sites OpenSource (OpenTree of Life, Open Street Map, Catalogue of Life, etc.)
 - Exportation vers une Base de Données
@@ -13,38 +13,37 @@ une application online/offline pour acquérir de nouvelles données d'observatio
 
 ### Comment:
 
-Deux interfaces online/offline (utlisateurs et DarwinCore) échangent avec une API reliée à une Base de Données en ligne.
+Deux interfaces opérationnelles en mode offline (utlisateurs et DarwinCore) échangent avec une API reliée à une Base de Données en ligne.
 Avant d'être exportées vers le GBIF, les données sont filtrées par l'outil du [GBIF DarwinCore Validator](http://tools.gbif.org/dwca-validator).
 
 ### Solutions techniques possibles :
 
-**Forms**
+**Formulaires**
 
-Different level (beginner, intermediate, expert)
-Remember that information could be automatically completed later (kingdom, etc.)
-Different kind of box (box, textbox, combobox, listbox, list, button, etc.)
-Different kind of inputs (images, geo-ref, text, etc.)
-Create prelist to help user
+Différents niveaux utilisateurs (débutant, intermédiaire, confirmé)
+Se souvenir que l'information peut-être complétée automatiquement ultérieurement (taxonomie, géographie...)
+Différentes sortes de catégories (box, textbox, cocombobox, listbox, list, button...)
+Différents types d'insertions de données (images, geo-ref, text, etc.)
+Créer une liste de champs prédéfinie via la configuration géographique et taxonomique
 
-**Portable app**
+**Application portable**
 
-Think about a complete offline apps form need to charge forms informations before going outline. => need also a small replication of the database or a specific format (json) that will be used by the api during upload on database.
-Upload data when go back online (or at the end of bioblitz)
+Concevoir un formulaire offline nécessaire pour configurer les interfaces utilisateurs. => nécéssite aussi une réplication de la base de données, sous forme d'un format approprié (json) qui sera utilisé par l'API ultérieurement lors du chargement dans la base de données. Téléversement des données lorsqu'il y aura connection au réseau (et ou à la fin du BioBlitz).
 
 **API**
 
-Interface between database and apps (webform and portable apps)
+Interface de programmation entre la base de données et les applications online/offline (formulaire web et applications portables).
 
-**Database**
+**Base de données**
 
 Portable
-SQL or not
+SQL ou non
 Simple
-Uniform and sharable think in terms of DWC archive and data exportation
+Uniforme et partageable sous forme d'archive DarwinCore et d'exportation de données.
 
-**Web app**
+**Applis web**
 
-Prepare forms
+Préparer les formulaires
 Project access (ACL)
-Basic data visualisation => not the main objective
+Visualisation des données de base => pas un objectif principal
 
