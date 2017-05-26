@@ -18,7 +18,7 @@ Avant d'être exportées vers le GBIF, les données sont filtrées par l'outil d
 
 ### Solutions techniques possibles :
 
-[Documentation du la mini NCC dédiée à OpenBioblitz](https://mensuel.framapad.org/p/miniNCC) le 26 juin 2017 à Rennnes
+[Documentation du la mini NCC dédiée à OpenBioblitz](https://mensuel.framapad.org/p/miniNCC) le 26 mai 2017 à Rennnes
 
 **Formulaires**
 
