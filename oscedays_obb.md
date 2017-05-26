@@ -10,7 +10,7 @@ Décrire les différents rôles de chaques intervenants dans le processus d'un B
 Exemple :
 [Schémas fonctionnel des acteurs d'un BioBlitz](https://github.com/onorvez/OpenBioBlitz/blob/master/Capture%20d%E2%80%99e%CC%81cran%202017-05-26%20a%CC%80%2023.13.13.png)
 
-Utilisateur:
+###Utilisateur###:
     Admin System:
 - Gérer le serveur admin
 - Installer facilement
