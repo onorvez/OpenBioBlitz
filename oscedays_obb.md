@@ -10,6 +10,7 @@ Décrire les différents rôles de chaques intervenants dans le processus d'un B
 Exemple :
 [Schémas fonctionnel des acteurs d'un BioBlitz](https://github.com/onorvez/OpenBioBlitz/blob/master/Capture%20d%E2%80%99e%CC%81cran%202017-05-26%20a%CC%80%2023.13.13.png)
 
+Personnes
 Utilisateur
     Admin System:
 - Gérer le serveur admin
@@ -17,12 +18,13 @@ Utilisateur
 - Mettre à jour
 - Compiler les données pour en faire fichier darwin core
 
-    Utilisateur final:
+Utilisateur final:
 - Identifier l’espèce présente devant soi
 - Remplir le formulaire sur l’application en fonction des trois niveaux d’expertise (débutant, intermédiaire, confirmé)
 - Application portable (offline) : concevoir un formulaire offline nécessaire pour configurer les interfaces utilisateurs. => nécéssite aussi une réplication de la base de données, sous forme d'un format approprié (json) qui sera utilisé par l'API ultérieurement lors du chargement dans la base de données. Téléversement des données lorsqu'il y aura connection au réseau (et ou à la fin du BioBlitz).
+
 Objet:
-    Serveur Admin:
+Serveur Admin:
 - Doit être léger
 - Le formulaire doit comprendre différents niveaux utilisateurs (débutant, intermédiaire, confirmé) Se souvenir que l'information peut-être complétée automatiquement ultérieurement (taxonomie, géographie...) Différentes sortes de catégories (box, textbox, cocombobox, listbox, list, button...) Différents types d'insertions de données (images, geo-ref, text, etc.) Créer une liste de champs prédéfinie via la configuration géographique et taxonomique
 
